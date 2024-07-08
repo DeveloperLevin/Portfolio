@@ -11,8 +11,7 @@ function ProjectList() {
 
   return (
       <section className='flex flex-col justify-center items-center'>
-          <h1>PROJECTS</h1>
-          {/* Use parentheses to explicitly return JSX inside map */}
+          <h1 className='text-xl font-bold tracking-wider' style={{letterSpacing: '0.1em'}}>PROJECTS</h1>
           {projects.map((p) => (
               <ProjectCard key={p.id} projectName={p.projectName} desc={p.description} img={p.img} />
           ))}

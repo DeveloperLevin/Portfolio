@@ -3,7 +3,7 @@ import React from 'react'
 function Tech() {
   return (
     <section className='flex flex-col justify-center items-center'>
-        <h1>SKILLS</h1>
+        <h1 className='text-xl font-bold tracking-wider' style={{letterSpacing: '0.1em'}}>SKILLS</h1>
         <div>
             <ul>
                 <li>HTML</li>
