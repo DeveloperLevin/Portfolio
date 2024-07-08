@@ -2,7 +2,7 @@ import React from 'react'
 
 function Tech() {
   return (
-    <section>
+    <section className='flex flex-col justify-center items-center'>
         <h1>SKILLS</h1>
         <div>
             <ul>

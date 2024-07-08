@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <section>
+    <section className='flex flex-col justify-center items-center'>
         <h1>Contact</h1>
         <div>
             <input type='text' placeholder='Username'/>

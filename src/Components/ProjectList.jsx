@@ -10,7 +10,7 @@ function ProjectList() {
   ];
 
   return (
-      <section>
+      <section className='flex flex-col justify-center items-center'>
           <h1>PROJECTS</h1>
           {/* Use parentheses to explicitly return JSX inside map */}
           {projects.map((p) => (
