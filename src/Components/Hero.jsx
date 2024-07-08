@@ -6,7 +6,6 @@ export default function Hero() {
         <section>
             <div>
                 <img src='../../src/assests/download.png' alt='Profile picture'/>
-                <img src=''/>
             </div> 
             <div>
                 <h1>Levin Samson Moras</h1>
