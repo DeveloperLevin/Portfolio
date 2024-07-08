@@ -1,16 +1,6 @@
 *{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
     font-family: 'Roboto Mono', monospace;
-}
-
-p {
-    font-family: 'Roboto Mono', monospace;
-}
-
-h1, h2, h3 {
-    font-family: 'Rubik', sans-serif;
+    background-color: rgb(241 245 249);
 }
 
 button {
@@ -27,4 +17,3 @@ button:active {
     transform: translateY(2px);
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
 }
-
