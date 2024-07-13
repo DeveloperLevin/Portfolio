@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main {
+    background-color:  rgb(242,242,242);
+}
+
+h1 {
+    font-size: 1.6rem;
+    font-family: Rubik;
+    font-weight: light;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-family: Roboto, sans-serif;
+}
+
+p{
+    max-width: 15rem;
+}
+
+.link {
+    width: 50px;
+    height: 50px;
+}
+
+.card {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.card:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.card > div {
+    width: 49%;
+    background-color: white;
+}
+
+.project-img {
+    object-fit: cover;
+}
+
+.skill {
+    width: 60%;
+}
+
+.skill > ul > li {
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.skill > ul > li >  .parent {
+    width: 80%;
+    background-color: white;
+    height: 20px;
+    border-radius: 1rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+
+.cent {
+    height: 100%;
+    background-color: rgb(59 130 246);
+    border-radius: 1rem;
+}
+
+.skill > ul > li:nth-child(1) .cent{
+    width: 99%;
+}
+
+.skill > ul > li:nth-child(2) .cent{
+    width: 60%;
+}
+
+.skill > ul > li:nth-child(3) .cent{
+    width: 82%;
+}
+
+.skill > ul > li:nth-child(4) .cent{
+    width: 87%;
+}
+
+.skill > ul > li:nth-child(5) .cent{
+    width: 50%;
+}
+
+.skill > ul > li:nth-child(6) .cent{
+    width: 40%;
+}
+
+.skill > ul > li:nth-child(7) .cent{
+    width: 55%;
+}
+
+.skill > ul > li:nth-child(8) .cent{
+    width: 80%;
+}
+
+.skill > ul > li:nth-child(9) .cent{
+    width: 60%;
+}
+
+.contact {
+    margin-top: 1.5rem;
+    background-color: black;
+    padding: 0.9rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-text {
+    color: white;
+}
+
+.entries {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.entries > input {
+    margin-bottom: 1rem;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.entries > textarea {
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.skill-main {
+    margin-top: 20px;
+}

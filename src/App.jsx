@@ -8,7 +8,7 @@ import './index.css'
 
 function App() {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col main'>
       <Hero/> 
       <ProjectList />
       <Tech />

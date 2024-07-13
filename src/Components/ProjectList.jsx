@@ -1,5 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
+import '../app.css'
+import '../style.css'
 
 function ProjectList() {
   const projects = [
@@ -10,8 +12,8 @@ function ProjectList() {
   ];
 
   return (
-      <section className='flex flex-col justify-center items-center'>
-          <h1 className='text-xl font-bold tracking-wider' style={{letterSpacing: '0.1em'}}>PROJECTS</h1>
+      <section className='flex flex-col justify-center items-center mt-4'>
+          <h1 className='tracking-wider' style={{letterSpacing: '0.1em'}}>PROJECTS</h1>
           {projects.map((p) => (
               <ProjectCard key={p.id} projectName={p.projectName} desc={p.description} img={p.img} />
           ))}
